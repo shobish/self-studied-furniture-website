@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Furniro</title>
 </head>
 <body>
@@ -14,6 +14,8 @@
             <h1>Furniro</h1>
         </div>
         <nav class="nav">
+          
+            <i id="menu-open-button" class="fa-solid fa-bars"></i>
             <ul class="nav-list">
                 <li class="navitem">
                     <a href="">Home</a>
@@ -28,6 +30,7 @@
                     <a href="">Contact</a>
                 </li>
             </ul>
+            <i id="menu-close-button" class="fas fa-times"></i>
         </nav>
         <div class="nav-carts-icon">
             <i class="fa-solid fa-address-book"></i>
@@ -36,13 +39,207 @@
             <i class="fa-solid fa-cart-shopping"></i>
         </div>
     </header>
-    <section class="head-banner section-content">
+    <section class="head-banner ">
         <div class="banner-box">
             <p>New Arrival</p>
-            <h1>Discover Our New Collection</h1>
+            <h2>Discover Our New Collection</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
             <button class="btn">BUY NOW</button>
         </div>
     </section>
+    <section class="section-content browse">
+        <div class="browse-container">
+            <div class="browse-heading">
+                <h3>Browse The Range</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="browse-image">
+                <div class="image-block">
+                    <img src="./images/brows-1.png" alt="">
+                    <h4>dining</h4>
+                </div>
+                <div class="image-block">
+
+                    <img src="./images/browse-2.png" alt="">
+                    <h4>living</h4>
+                </div>
+                <div class="image-block">
+                    <img src="./images/bedroom.png" alt="">
+                    <h4>bedroom</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-content product">
+        <div class="product-container">
+            <div class="product-heading">
+                <h3>Our Product</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="product-gallery">
+                <div class="row">
+                    <div class="col">
+                        <div class="image-block">
+                            <img src="./images/products/7.png" alt="">
+                            <div class="product-hover">
+                                <a class="primary-btn">Add to cart</a>
+                                <div class="hover-icons">
+                                    <div class="share">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        <p>Share</p>
+                                    </div>
+                                    
+                                    <div class="compare">
+                                        <i class="fa-solid fa-code-compare"></i>
+                                        <p>Compare</p>
+                                    </div>
+                                    <div class="like">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <p>like</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-description">
+                            <h4>syltherine</h4>
+                            <p>Stylish cafe chair</p>
+                            <div class="pricing">
+                                <h4>rp 2.500.000</h4>
+                                <p>rp 3.500.000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image-block">
+                            <img src="./images/products/6.png" alt="">
+                            <div class="image-description">
+                                <h4>syltherine</h4>
+                                <p>Stylish cafe chair</p>
+                                <div class="pricing">
+                                    <h4>rp 2.500.000</h4>
+                                    <p>rp 3.500.000</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image-block">
+                            <img src="./images/products/5.png" alt="">
+                            <div class="image-description">
+                                <h4>syltherine</h4>
+                                <p>Stylish cafe chair</p>
+                                <div class="pricing">
+                                    <h4>rp 2.500.000</h4>
+                                    <p>rp 3.500.000</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image-block">
+                            <img src="./images/products/4.png" alt="">
+                            <div class="image-description">
+                                <h4>syltherine</h4>
+                                <p>Stylish cafe chair</p>
+                                <div class="pricing">
+                                    <h4>rp 2.500.000</h4>
+                                    <p>rp 3.500.000</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="image-block">
+                            <img src="./images/products/7.png" alt="">
+                            <div class="image-description">
+                                <h4>syltherine</h4>
+                                <p>Stylish cafe chair</p>
+                                <div class="pricing">
+                                    <h4>rp 2.500.000</h4>
+                                    <p>rp 3.500.000</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image-block">
+                            <img src="./images/products/6.png" alt="">
+                            <div class="image-description">
+                                <h4>syltherine</h4>
+                                <p>Stylish cafe chair</p>
+                                <div class="pricing">
+                                    <h4>rp 2.500.000</h4>
+                                    <p>rp 3.500.000</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image-block">
+                            <img src="./images/products/5.png" alt="">
+                            <div class="image-description">
+                                <h4>syltherine</h4>
+                                <p>Stylish cafe chair</p>
+                                <div class="pricing">
+                                    <h4>rp 2.500.000</h4>
+                                    <p>rp 3.500.000</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image-block">
+                            <img src="./images/products/4.png" alt="">
+                            <div class="image-description">
+                                <h4>syltherine</h4>
+                                <p>Stylish cafe chair</p>
+                                <div class="pricing">
+                                    <h4>rp 2.500.000</h4>
+                                    <p>rp 3.500.000</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+    <script>
+        const openbar =document.getElementById('menu-open-button');
+        const closebar = document.getElementById('menu-close-button');
+        
+        openbar.addEventListener('click', () => {
+            document.body.classList.toggle('toggle-menu');
+            closebar.style.display = 'block';
+            openbar.style.display = 'none';
+        });
+        closebar.addEventListener('click', () => {
+            document.body.classList.toggle('toggle-menu');
+            openbar.style.display = 'block';
+            closebar.style.display = 'none';
+        });
+
+
+    </script>
+    
 </body>
 </html>
